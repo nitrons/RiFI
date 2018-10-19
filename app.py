@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # link to our rss page
-page = requests.get("https://www.hcl.hr/feed/")
+page = requests.get("RSS_feed_url")
 
 # get content of the page
 content = page.content
